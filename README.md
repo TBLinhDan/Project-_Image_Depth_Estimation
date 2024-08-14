@@ -2,7 +2,7 @@
 Thực hiện bài toán **Depth Information Reconstruction**, mô phỏng độ sâu ***(disparity map)*** từ một cặp ảnh stereo cho trước. Với Disparity Map, ta có thể biết được thông tin chiều sâu (Depth Information) thực tế, để hướng tới mục tiêu phục hồi kiến trúc 3D từ một cặp ảnh 2D. 
 Trong project này, ta sẽ làm quen với bài toán **Stereo Matching** thông qua việc triển khai một số thuật toán tính Disparity Map từ cặp ảnh stereo cho trước. Stereo Matching là một bài toán lớn trong lĩnh vực Thị giác máy tính (Computer Vision), được sử dụng để xác định độ sâu của các đối tượng trong một cảnh khi so sánh hai (hoặc nhiều) hình ảnh được chụp từ các góc nhìn hơi khác nhau. Bằng cách phân tích sự khác biệt giữa các điểm tương ứng trong các hình ảnh này, thuật toán Stereo Matching ước tính khoảng cách đến các điểm khác nhau, tạo ra một biểu diễn 3D của cảnh.
 
-### **Part A_**Problem 1: Xây dựng hàm tính ***disparity map*** của hai ảnh stereo đầu vào (ảnh bên trái (L) và ảnh bên phải (R)) theo phương thức ***pixel-wise matching***.  
+### **Part A_Problem 1: Xây dựng hàm tính ***disparity map*** của hai ảnh stereo đầu vào (ảnh bên trái (L) và ảnh bên phải (R)) theo phương thức ***pixel-wise matching**.  
 
 **1. Tải cặp ảnh stereo Tsukuba**
 * Tải thủ công và upload lên google drive
