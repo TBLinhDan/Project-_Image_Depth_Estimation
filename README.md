@@ -329,7 +329,7 @@ def window_based_matching_l2(left_img, right_img, disparity_range, kernel_size=5
     return depth
 ```
 
-###**B_I. Disparity map Result:**
+### **B_I. Disparity map Result:**
 
 ```
 left_img_path = 'Aloe/Aloe_left_1.png'
